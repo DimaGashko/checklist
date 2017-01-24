@@ -1,1 +1,1 @@
-# https://dimagashko.github.io/checklist/
+https://dimagashko.github.io/checklist/
