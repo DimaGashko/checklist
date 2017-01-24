@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>Checklist</title>
+      <meta charset="utf-8">
+      
+      <link type="text/css" rel="stylesheet" href="css/main.css">
+		
+		<script defer src="js/checklist.js"></script>
+      <script defer src="js/store.js"></script>
+      <script defer src="js/template.js"></script>
+      <script defer src="js/model.js"></script>
+      <script defer src="js/view.js"></script>
+      <script defer src="js/controller.js"></script>
+      <script defer src="js/main.js"></script>
+   </head>
+   
+   <body>
+
+      <div id="checklist-root" class="checklist">
+         <header class="checklist__header">
+            <div class="checklist__completed_all-parent">
+               <label class="checklist__completed_all-label">
+                  <input type="checkbox" class="checklist__completed_all">
+                  <span></span>
+               </label>
+            </div>
+            <input type="text" class="checklist__new_todo" placeholder="What needs to be done?">
+         </header>
+         
+         <section class="checklist__body"></section>
+         
+         <footer class="checklist__footer">
+            <div class="checklist__item_last">
+               <span class="checklist__item_last-val">1</span> 
+               items left
+            </div>
+            
+            <div class="checklist__fiters">
+               <div class="checklist_filter-button checklist_filter-all checklist_filter-selected">All</div>
+               <div class="checklist_filter-button checklist_filter-active">Active</div>
+               <div class="checklist_filter-button checklist_filter-completed">Completed</div>
+            </div>
+            
+            <div class="checklist__clear-complited">Clear completed</div>
+         </footer>
+      </div>
+      
+   </body>
+</html>
